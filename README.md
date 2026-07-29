@@ -53,7 +53,7 @@ dropout_app/
 │   ├── predictor.py              # Modell betöltés + predikció (helyes skálázással)
 │   └── charts.py                 # Újrafelhasználható Plotly ábrák
 └── pages/
-    ├── 1_📊_Leiro_statisztikak.py
-    ├── 2_🎯_Dropout_elorejelzes.py
-    └── 3_🤖_Modell_informacio.py
+    ├── Leiro_statisztikak.py
+    ├── Dropout_elorejelzes.py
+    └── Modell_informacio.py
 ```
