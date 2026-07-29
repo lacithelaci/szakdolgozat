@@ -57,21 +57,6 @@ dropout_app/
     ├── 2_🎯_Dropout_elorejelzes.py
     └── 3_🤖_Modell_informacio.py
 ```
-
-## Ismert korlátok / továbbfejlesztési ötletek
-
-- A `mother_has_degree` / `father_has_degree` szűrő a notebookból átvett
-  `[2, 3, 4, 5, 40, 41, 43, 44]` kódlistát használja. Ebben a konkrét
-  adathalmazban a szülői végzettség kódok csak 1-34-ig terjednek, tehát a
-  `40, 41, 43, 44` kódok a gyakorlatban sosem fordulnak elő - érdemes lehet
-  átnézni, hogy szeretnéd-e bővíteni a listát a 29-34 közötti (technológiai
-  szakosító / felsőfokú technikusi stb.) kódokkal is.
-- A `StandardScaler` a notebookban a teljes (train+test) adathalmazon lett
-  illesztve a felosztás előtt - ez enyhe adatszivárgás, ami a szakdolgozat
-  módszertani fejezetében érdemes megemlíteni, de a jelenlegi eredményeket
-  (F1 0.69 / 0.88) nem érinti drasztikusan.
-- Jelenleg a predikciós modellek csak pontbecslést adnak vissza (nincs
-  konfidencia-intervallum) - ha szeretnéd, bővíthető bootstrap-alapú
   bizonytalansági sávval.
 - Nincs adatperzisztencia (pl. korábbi predikciók naplózása) - ha ez kell a
   szakdolgozathoz (pl. "hány hallgatót elemeztünk eddig"), egyszerűen
