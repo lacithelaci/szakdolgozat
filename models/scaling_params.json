@@ -1,0 +1,70 @@
+{
+  "Application order": {
+    "mean": 1.750137741046832,
+    "std": 1.333647510966351
+  },
+  "Age at enrollment": {
+    "mean": 23.461157024793387,
+    "std": 7.826915895510716
+  },
+  "Curricular units 1st sem (credited)": {
+    "mean": 0.7542699724517906,
+    "std": 2.4769354129776042
+  },
+  "Curricular units 1st sem (enrolled)": {
+    "mean": 6.337465564738292,
+    "std": 2.570418960351468
+  },
+  "Curricular units 1st sem (evaluations)": {
+    "mean": 8.071074380165289,
+    "std": 4.286041885475965
+  },
+  "Curricular units 1st sem (approved)": {
+    "mean": 4.791460055096419,
+    "std": 3.2373991900323373
+  },
+  "Curricular units 1st sem (grade)": {
+    "mean": 10.534859606002367,
+    "std": 5.0569972568615675
+  },
+  "Curricular units 1st sem (without evaluations)": {
+    "mean": 0.12892561983471074,
+    "std": 0.6790170358418548
+  },
+  "Curricular units 2nd sem (credited)": {
+    "mean": 0.5818181818181818,
+    "std": 2.022408895611081
+  },
+  "Curricular units 2nd sem (enrolled)": {
+    "mean": 6.296418732782369,
+    "std": 2.2627084287371813
+  },
+  "Curricular units 2nd sem (evaluations)": {
+    "mean": 7.763085399449036,
+    "std": 3.963617370107612
+  },
+  "Curricular units 2nd sem (approved)": {
+    "mean": 4.518457300275482,
+    "std": 3.161940653215636
+  },
+  "Curricular units 2nd sem (grade)": {
+    "mean": 10.036155051506652,
+    "std": 5.480986969474251
+  },
+  "Curricular units 2nd sem (without evaluations)": {
+    "mean": 0.14214876033057852,
+    "std": 0.7475674490091329
+  },
+  "Unemployment rate": {
+    "mean": 11.630358126721763,
+    "std": 2.6672844257471686
+  },
+  "Inflation rate": {
+    "mean": 1.2315977961432507,
+    "std": 1.384720410440881
+  },
+  "GDP": {
+    "mean": -0.009256198347107421,
+    "std": 2.2596745536984697
+  }
+}

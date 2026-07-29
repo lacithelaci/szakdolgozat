@@ -1,0 +1,132 @@
+{
+  "early": {
+    "results": {
+      "Logistic Regression": {
+        "accuracy": 0.7534435261707989,
+        "f1_score": 0.6398390342052314,
+        "confusion_matrix": [
+          [
+            388,
+            54
+          ],
+          [
+            125,
+            159
+          ]
+        ]
+      },
+      "Random Forest": {
+        "accuracy": 0.7272727272727273,
+        "f1_score": 0.6360294117647058,
+        "confusion_matrix": [
+          [
+            355,
+            87
+          ],
+          [
+            111,
+            173
+          ]
+        ]
+      },
+      "Gradient Boosting": {
+        "accuracy": 0.7699724517906336,
+        "f1_score": 0.6890130353817505,
+        "confusion_matrix": [
+          [
+            374,
+            68
+          ],
+          [
+            99,
+            185
+          ]
+        ]
+      }
+    },
+    "best_model": "Gradient Boosting",
+    "features": [
+      "Age at enrollment",
+      "Gender",
+      "Scholarship holder",
+      "Debtor",
+      "Tuition fees up to date",
+      "Displaced",
+      "Application order",
+      "mother_has_degree",
+      "father_has_degree",
+      "International",
+      "Application mode",
+      "Course",
+      "Marital status"
+    ]
+  },
+  "midterm": {
+    "results": {
+      "Logistic Regression": {
+        "accuracy": 0.8980716253443526,
+        "f1_score": 0.8692579505300353,
+        "confusion_matrix": [
+          [
+            406,
+            36
+          ],
+          [
+            38,
+            246
+          ]
+        ]
+      },
+      "Random Forest": {
+        "accuracy": 0.9008264462809917,
+        "f1_score": 0.8709677419354839,
+        "confusion_matrix": [
+          [
+            411,
+            31
+          ],
+          [
+            41,
+            243
+          ]
+        ]
+      },
+      "Gradient Boosting": {
+        "accuracy": 0.9035812672176309,
+        "f1_score": 0.8776223776223776,
+        "confusion_matrix": [
+          [
+            405,
+            37
+          ],
+          [
+            33,
+            251
+          ]
+        ]
+      }
+    },
+    "best_model": "Gradient Boosting",
+    "features": [
+      "Age at enrollment",
+      "Gender",
+      "Scholarship holder",
+      "Debtor",
+      "Tuition fees up to date",
+      "Displaced",
+      "Application order",
+      "mother_has_degree",
+      "father_has_degree",
+      "International",
+      "Application mode",
+      "Course",
+      "Marital status",
+      "Curricular units 1st sem (credited)",
+      "Curricular units 1st sem (enrolled)",
+      "Curricular units 1st sem (evaluations)",
+      "Curricular units 1st sem (approved)",
+      "Curricular units 1st sem (grade)",
+      "Curricular units 1st sem (without evaluations)"
+    ]
+  }
+}
