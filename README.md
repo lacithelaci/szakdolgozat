@@ -57,7 +57,3 @@ dropout_app/
     ├── 2_🎯_Dropout_elorejelzes.py
     └── 3_🤖_Modell_informacio.py
 ```
-  bizonytalansági sávval.
-- Nincs adatperzisztencia (pl. korábbi predikciók naplózása) - ha ez kell a
-  szakdolgozathoz (pl. "hány hallgatót elemeztünk eddig"), egyszerűen
-  hozzáadható egy helyi SQLite vagy CSV napló.
